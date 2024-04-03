@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+//        System.out.println("Hello Africa");
+//        System.out.print("I am a Product Designer who writes DB queries");
+//        //This is just but a comment
+//        System.out.println("testing out escape characters");
+//        /*
+//        I am testing out a multiline comment
+//        Lets talk variables - there are about 9 data types
+//        Boolean, int, char, Float, short, Long, string, byte, double.
+//        Each can be used based on what each person needs to achieve.
+//        See Data  types in play.
+//         */
+//        int x; // declaration
+//        x = 123; //assignment
+//        //OR one could basically perform Declaration and Assignment at the same time;
+//
+//        int y = 123; //the action being known as initialization.
+//        System.out.println(y);
+//
+//        String name = "wycliffe";// String
+//        boolean male = true;//Boolean
+//        long population = 34759676767697L; //notice the L at the end of the long.
+//        char symbol = 'c';
+//        byte age = 23; //holds -between 0-255 - Negligible impact.
+//
+//        //Swapping variables.
+//
+//        //Step 1: Declare variable.
+//        String a = "kool-aid";
+//        String b = "water";
+//        // Step 2: Declare an empty variable;
+//        String temp;
+//        //Step 3: Assign the empty variable the contents of the first variable.
+//        temp = a;
+//        //Step 4:Reassign the first variable the second variable.
+//        a = b;
+//        //Step 5: Assign the value of the temporary variable to the first variable.
+//        temp = b;
+//        System.out.println(a);
+
+//        //collecting user input.
+//        //step 1. Import the scanner Utility. (import java.util.Scanner.)
+//        //step 2 use scanner class to create a scanner object.
+//        Scanner = new Scanner(System.in);
+//        //step 3 printout the question on the console
+//        System.out.println("Hello Welcome to Archeo-hub, what is your name?");
+//        //Step 3 assign a data type to the input.
+//        String name = scanner.nextLine();
+//        //step 4 print out the input.
+//        System.out.println("welcome "+name);
+
+        //Try out 2.
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println(scan.nextLine());
+
+//        //try out 3 - own
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Hello chief, whats your ID ?");
+//        String myId = scanner.nextLine();
+//
+//        System.out.println("So your Id is "+myId);
+        //Try out 4 own
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println(scan.nextLine());
+
+        Scanner intscanner = new Scanner(System.in);
+        System.out.print(intscanner.nextInt());
+        intscanner.nextLine();
+
+        Scanner testscan = new Scanner(System.in);
+        System.out.println(testscan.nextLine());
+    }
+}
