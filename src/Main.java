@@ -65,14 +65,27 @@ public class Main {
 //        System.out.println("So your Id is "+myId);
         //Try out 4 own
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println(scan.nextLine());
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println(scan.nextLine());
+//
+//        Scanner intscanner = new Scanner(System.in);
+//        System.out.print(intscanner.nextInt());
+//        intscanner.nextLine();
+//
+//        Scanner testscan = new Scanner(System.in);
+//        System.out.println(testscan.nextLine());
 
-        Scanner intscanner = new Scanner(System.in);
-        System.out.print(intscanner.nextInt());
-        intscanner.nextLine();
+        //Hypotenuse calculation algorithm
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner testscan = new Scanner(System.in);
-        System.out.println(testscan.nextLine());
+        System.out.println("what the height in cm ?");
+        double x = scanner.nextDouble();
+        System.out.println("what is the length in cm ?");
+        double y = scanner.nextDouble();
+        scanner.nextLine();
+
+        double z = Math.sqrt((x*x)+(y*y));
+
+        System.out.println("Your Hypotenuse is " + z );
     }
 }
