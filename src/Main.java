@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,16 +77,28 @@ public class Main {
 //        System.out.println(testscan.nextLine());
 
         //Hypotenuse calculation algorithm
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("what the height in cm ?");
+//        double x = scanner.nextDouble();
+//        System.out.println("what is the length in cm ?");
+//        double y = scanner.nextDouble();
+//        scanner.nextLine();
+//
+//        double z = Math.sqrt((x*x)+(y*y));
+//
+//        System.out.println("Your Hypotenuse is " + z );
 
-        System.out.println("what the height in cm ?");
-        double x = scanner.nextDouble();
-        System.out.println("what is the length in cm ?");
-        double y = scanner.nextDouble();
-        scanner.nextLine();
-
-        double z = Math.sqrt((x*x)+(y*y));
-
-        System.out.println("Your Hypotenuse is " + z );
+        //Generating a random number
+        //step 1 - import the random class.
+        //Step 2 - Instantiate the random class
+        Random randomizer = new Random();
+        //Step 3 - create a variable and store the random number
+        //Step 4 randomising double
+        double z = randomizer.nextDouble();
+        //Step 5 = randomise a boolean
+        boolean married = randomizer.nextBoolean();
+        int r = randomizer.nextInt(6)+1;
+        System.out.println(married);
     }
 }
