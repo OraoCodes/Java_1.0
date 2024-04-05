@@ -117,5 +117,29 @@ public class Main {
 //        }
 
 //        ------------------------------------------------------------------------
+        //Switches - used in cases where one does not need to use so many if statements
+//
+        Scanner scanner = new Scanner(System.in);
+        String pet = scanner.nextLine();
+        switch (pet){
+            case "dog": System.out.println("A dog is s pet");
+            break;
+            case "cat": System.out.println("A Cat is a pet");
+            break;
+            default: System.out.println("I don't seem to understand");
+        }
+
+//         second attempt - Id cracker
+
+        System.out.println("Please insert your Pin");
+        Scanner idScanner = new Scanner(System.in);
+        int id = idScanner.nextInt();
+
+        switch (id){
+            case 36750652: System.out.println("Password is correct");
+            break;
+            default: System.out.println("Pin is wrong");
+        }
+
     }
 }
