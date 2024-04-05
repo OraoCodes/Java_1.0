@@ -89,16 +89,33 @@ public class Main {
 //
 //        System.out.println("Your Hypotenuse is " + z );
 
-        //Generating a random number
-        //step 1 - import the random class.
-        //Step 2 - Instantiate the random class
-        Random randomizer = new Random();
-        //Step 3 - create a variable and store the random number
-        //Step 4 randomising double
-        double z = randomizer.nextDouble();
-        //Step 5 = randomise a boolean
-        boolean married = randomizer.nextBoolean();
-        int r = randomizer.nextInt(6)+1;
-        System.out.println(married);
+//        //Generating a random number
+//        //step 1 - import the random class.
+//        //Step 2 - Instantiate the random class
+//        Random randomizer = new Random();
+//        //Step 3 - create a variable and store the random number
+//        //Step 4 randomising double
+//        double z = randomizer.nextDouble();
+//        //Step 5 = randomise a boolean
+//        boolean married = randomizer.nextBoolean();
+//        int r = randomizer.nextInt(6)+1;
+//        System.out.println(married);
+
+//        --------------------------------------------------------------
+//        //if statements.
+//        Scanner scannet = new Scanner(System.in);
+//
+//        int age = scannet.nextInt();
+//
+//        if (age > 18){
+//            System.out.println("Wow you are an adult");
+//        } else if (age == 18) {
+//            System.out.println("Just got here");
+//        }
+//        else {
+//            System.out.println("Hey youngie !");
+//        }
+
+//        ------------------------------------------------------------------------
     }
 }
