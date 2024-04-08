@@ -153,20 +153,29 @@ public class Main {
 //        }
         //code did not execute because of the switch class only works for println
 //        **********************************************************************?
-        //Testing out logical operators
+        //Testing out logical operator
 
+//        Scanner scanner = new Scanner(System.in);
+//        int id = scanner.nextInt();
+//        scanner.nextLine();
+//
+//        System.out.println("what is your gender");
+//        String gender = scanner.nextLine();
+//
+//        if (id >= 18 && gender.equals("male")){
+//            System.out.println("You are an adult");
+//        }else{
+//            System.out.println("You are a kid");
+//        }
+//        **************************************************************************
+        Scanner scanner  = new Scanner(System.in);
+        String name = "";
 
-        Scanner scanner = new Scanner(System.in);
-        int id = scanner.nextInt();
-        scanner.nextLine();
-
-        System.out.println("what is your gender");
-        String gender = scanner.nextLine();
-
-        if (id >= 18 && gender.equals("male")){
-            System.out.println("You are an adult");
-        }else{
-            System.out.println("You are a kid");
+        while(name.isBlank()){
+            System.out.print("Please enter your name");
+            name = scanner.nextLine();
         }
+        System.out.print("Hello "+name);
+
     }
 }
