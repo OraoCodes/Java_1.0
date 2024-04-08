@@ -167,15 +167,24 @@ public class Main {
 //        }else{
 //            System.out.println("You are a kid");
 //        }
-//        **************************************************************************
-        Scanner scanner  = new Scanner(System.in);
-        String name = "";
+//        Scanner scanner  = new Scanner(System.in);
+//        String name = "";
+//
+//        while(name.isBlank()){
+//            System.out.print("Please enter your name");
+//            name = scanner.nextLine();
+//        }
+//        System.out.print("Hello "+name);
 
-        while(name.isBlank()){
-            System.out.print("Please enter your name");
-            name = scanner.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please Enter your name");
+        String name = scanner.nextLine();
+
+        while (name.isBlank()){
+            System.out.println("Your name is needed to begin the game");
+            scanner.nextLine();
         }
-        System.out.print("Hello "+name);
+        System.out.println("Lets rumble "+name);
 
     }
 }
