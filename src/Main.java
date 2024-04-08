@@ -142,17 +142,31 @@ public class Main {
 //        }
 
         // Testing out a switch on my own - minimal reference
-
-        System.out.print("please share your age");
-        Scanner scanner = new Scanner(System.in);
-        int age = scanner.nextInt();
-
-        switch (age){
-            case age 19: System.out.println("You are under age");
-            default:
-        }
+//
+//        System.out.print("please share your age");
+//        Scanner scanner = new Scanner(System.in);
+//        int age = scanner.nextInt();
+//
+//        switch (age){
+//            case age 19: System.out.println("You are under age");
+//            default:
+//        }
         //code did not execute because of the switch class only works for println
 //        **********************************************************************?
+        //Testing out logical operators
 
+
+        Scanner scanner = new Scanner(System.in);
+        int id = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("what is your gender");
+        String gender = scanner.nextLine();
+
+        if (id >= 18 && gender.equals("male")){
+            System.out.println("You are an adult");
+        }else{
+            System.out.println("You are a kid");
+        }
     }
 }
