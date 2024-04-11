@@ -176,14 +176,22 @@ public class Main {
 //        }
 //        System.out.print("Hello "+name);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please Enter your name");
-        String name = scanner.nextLine();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Please Enter your name");
+//        String name = scanner.nextLine();
+//
+//        while (name.isBlank()){
+//            System.out.println("Your name is needed to begin the game");
+//            scanner.nextLine();
+//        }
+//        System.out.println("Lets rumble "+name);
+//
+        //Setting up for loops - these are loops that count to a specific number.
 
-        while (name.isBlank()){
-            System.out.println("Your name is needed to begin the game");
-            scanner.nextLine();
+        for(int i = 0; i <= 10; i++){
+            System.out.println(i);
+
         }
-        System.out.println("Lets rumble "+name);
+
     }
 }
