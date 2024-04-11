@@ -185,6 +185,5 @@ public class Main {
             scanner.nextLine();
         }
         System.out.println("Lets rumble "+name);
-
     }
 }
