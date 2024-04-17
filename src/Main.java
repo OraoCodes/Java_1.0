@@ -191,6 +191,18 @@ public class Main {
         for(int i = 0; i <= 10; i++){
             System.out.println(i);
 
+
+            //getting back to the Tech Field
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello Client, what is your name?");
+        String name = scanner.nextLine();
+        System.out.println("Hello " + name + " We will help you calculate the area of a rectangle");
+        System.out.println("Please enter your width");
+        int num1 = scanner.nextInt();
+        System.out.println("Please enter your Height");
+        int num2 = scanner.nextInt();
+        int num3 = num2 * num1;
+        System.out.println("Your area is " + num3);
         }
 
     }
