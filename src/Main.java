@@ -1,19 +1,24 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        //string methods
+        //arrayList - practise
 
-        String name = "Bro";
-//        boolean result = name.equals("bro");
-//        int result = name.length();
-//        char result = name.charAt(1);
-//        boolean result = name.equalsIgnoreCase("bro");
-//        boolean result = name.isEmpty();
-//        String results = name.trim();
-        String results = name.replace('o', 'u');
+        ArrayList<String> food = new ArrayList<String>();
 
-        System.out.println(results);
+        food.add("Omena");
+        food.add("fulu");
+        food.add("kuon");
+
+        food.set(0, "susshi");
+        food.remove(2);
+        food.clear();
+
+        for (int i=0; i<food.size(); i++ ){
+            System.out.println(food.get(i));
+        }
+
     }
 }
