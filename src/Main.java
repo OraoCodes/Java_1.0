@@ -32,5 +32,15 @@ public class Main {
             System.out.println(family.get(i));
         }
 
+        //testing out replacement of each word a with an i
+
+        ArrayList<Integer> current = new ArrayList<Integer>();
+
+        current.add(4);
+        current.add(5);
+
+        for(int i : current){
+            System.out.print(i*4);
+        }
     }
 }
