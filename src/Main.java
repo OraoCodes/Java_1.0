@@ -20,5 +20,17 @@ public class Main {
             System.out.println(food.get(i));
         }
 
+        //test 1
+
+        ArrayList<String> family = new ArrayList<>();
+
+        family.add("grandpa");
+        family.add("grandma");
+        family.add("mother");
+
+        for(int i=0; i<family.size(); i++){
+            System.out.println(family.get(i));
+        }
+
     }
 }
