@@ -13,7 +13,6 @@ public class Main {
         System.out.println(multiply(x,y));
     }
     static int multiply(int a, int b){
-        int z = a * b;
-        return z;
+        return a * b;
     }
 }
