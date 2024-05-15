@@ -4,15 +4,24 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        //introductions to Java Methods - a block of code one call at a particular time to perform a certain function.
+        int a = 4;
+        int b = 5;
+        int results = bmiCalculator(a,b);
+        System.out.println(results);
 
-        //testing out a method that takes in two integers and multiplies them
-        int x = 5;
-        int y = 10;
+    }
+    static int bmiCalculator(int a, int b){
+        int z = a*b;
+        return z;
+    }
 
-        System.out.println(multiply(x,y));
+    static int add(int a, int b){
+        System.out.println("This is overloaded method #1");
+        return a+b;
     }
-    static int multiply(int a, int b){
-        return a * b;
+    static int add(int a, int b, int c){
+        System.out.println("This is overloaded method 21");
+        return a+b+c;
     }
+
 }
